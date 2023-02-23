@@ -63,12 +63,12 @@ public class PointSpender {
 
     public static void main(String[] args) {
         //store first argument as the points to spend
-        int pointsToSpend = Integer.parseInt("5000");
+        int pointsToSpend = Integer.parseInt(args[0]);
 
         //store the transactions found in the first argument, the .csv file, as an arraylist of transactions
         ArrayList<Transaction> transactions = new ArrayList<Transaction>();
         try {
-            transactions = getData("./transactions.csv");
+            transactions = getData(args[1]);
         } catch (FileNotFoundException e) {
             System.out.println("No file found in current directory");
             return;
