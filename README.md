@@ -10,4 +10,5 @@ How to execute:
 6. open a terminal in that directory and run the following commands:
 
 javac -cp ./ PointSpender.java
+
 java PointSpender <Points to spend> <.csv file name>
