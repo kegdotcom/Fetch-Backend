@@ -5,8 +5,8 @@ This program takes in a number of points to spend, as well as a .csv file contai
 
 How to execute:
 1. Make sure you have java installed. If not, you can install it here: https://www.java.com/en/download/manual.jsp
-2. download the code in this public repository into its own directory on your local machine
-3. make sure the .csv file to load the data from is in the same directory
+2. download the java files from this public repository into its own directory on your local machine
+3. make sure the .csv file you would like to load the data from is in the same directory
 6. open a terminal in that directory and run the following commands:
 
 javac -cp ./ PointSpender.java
