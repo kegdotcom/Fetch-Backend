@@ -8,5 +8,6 @@ How to execute:
 2. download the code in this public repository into its own directory on your local machine
 3. make sure the .csv file to load the data from is in the same directory
 6. open a terminal in that directory and run the following commands:
+
 javac -cp ./ PointSpender.java
 java PointSpender <Points to spend> <.csv file name>
