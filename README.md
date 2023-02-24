@@ -11,4 +11,4 @@ How to execute:
 
 javac -cp ./ PointSpender.java
 
-java PointSpender <Points to spend> <.csv file name>
+java PointSpender <number of points to spend> <.csv file name>
